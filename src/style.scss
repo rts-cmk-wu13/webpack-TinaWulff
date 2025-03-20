@@ -1,5 +1,16 @@
 $body-color: green;
+$backgound-image: url('./blueberry.png');
 
 body {
     color: $body-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hello {
+background: $backgound-image;
+width: 100%;
+max-width: 100%;
 }
